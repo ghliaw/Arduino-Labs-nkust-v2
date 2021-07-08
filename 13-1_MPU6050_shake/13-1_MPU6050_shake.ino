@@ -7,7 +7,7 @@ int16_t ax, ay, az;
 int time_interval = 100;    //ms
 unsigned long current, lastTime = 0;
 int count = 0;
-float acc_threshold = 1.3;  //The thresholds for shake/fall detection
+float acc_threshold = 2.5;  //The thresholds for shake/fall detection
 float last_sum, current_sum;
 void setup()
 {
